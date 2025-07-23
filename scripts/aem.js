@@ -9,7 +9,11 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
+import decorateArticle from '../blocks/article/article.js';
 
+export function decorateBlocks() {
+  document.querySelectorAll('.block.article').forEach(decorateArticle);
+}
 /* eslint-env browser */
 function sampleRUM(checkpoint, data) {
   // eslint-disable-next-line max-len

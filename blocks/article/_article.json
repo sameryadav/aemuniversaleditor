@@ -1,0 +1,14 @@
+{
+    "id": "article",
+    "title": "Article Block",
+    "description": "Displays an article from an AEM Content Fragment",
+    "type": "object",
+    "properties": {
+      "cfPath": {
+        "type": "string",
+        "title": "Content Fragment Path",
+        "description": "Path to the article content fragment"
+      }
+    },
+    "required": ["cfPath"]
+  }
