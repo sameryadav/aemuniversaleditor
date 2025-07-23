@@ -236,14 +236,23 @@
   },
   {
     "id": "aemcontentfragmentblock",
-    "fields": [
-      {
-        "component": "aem-content",
-        "name": "aemcontentfragmentblock",
-        "label": "AEM Content Fragment Block",
-        "type": "object",
-        "title": "Fields"
+    "title": "Author Block",
+    "description": "Displays a author from an AEM Content Fragment",
+    "type": "object",
+    "properties": {
+      "authorName": {
+        "type": "string",
+        "title": "Author",
+        "description": "The main author list",
+        "x-aem-cf-field": "authorName"
+      },
+      "book": {
+        "type": "string",
+        "title": "Book",
+        "description": "The author of the quote",
+        "x-aem-cf-field": "book"
       }
-    ]
+    },
+    "required": ["authorName"]
   }
 ]
