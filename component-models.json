@@ -253,6 +253,6 @@
         "x-aem-cf-field": "book"
       }
     },
-    "required": ["authorName"]
+    "required": ["/content/dam/aemuniversaleditor/cf/authorcf"]
   }
 ]
