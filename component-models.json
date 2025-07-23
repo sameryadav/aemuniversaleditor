@@ -233,40 +233,6 @@
          "value": ""
        }
      ]
-  },
-  {
-    "id": "aemcontentfragmentblock",
-    "title": "Author Block",
-    "description": "Displays a author from an AEM Content Fragment",
-    "type": "object",
-    "properties": {
-      "authorName": {
-        "type": "string",
-        "title": "Author",
-        "description": "The main author list",
-        "x-aem-cf-field": "authorName"
-      },
-      "book": {
-        "type": "string",
-        "title": "Book",
-        "description": "The author of the quote",
-        "x-aem-cf-field": "book"
-      }
-    },
-    "required": ["/content/dam/aemuniversaleditor/cf/authorcf"]
-  },
-  {
-    "id": "article",
-    "title": "Article Block",
-    "description": "Displays an article from an AEM Content Fragment",
-    "type": "object",
-    "properties": {
-      "cfPath": {
-        "type": "string",
-        "title": "Content Fragment Path",
-        "description": "Path to the article content fragment"
-      }
-    },
-    "required": ["cfPath"]
   }
+  
 ]
