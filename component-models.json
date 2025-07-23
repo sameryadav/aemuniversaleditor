@@ -233,5 +233,29 @@
          "value": ""
        }
      ]
+  },
+  {
+    "id": "aemcontentfragmentblock",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "aemcontentfragmentblock",
+        "label": "AEM Content Fragment Block"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "authorName",
+        "label": "Author",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "book",
+        "label": "Book",
+        "value": ""
+      }
+    ]
   }
 ]
