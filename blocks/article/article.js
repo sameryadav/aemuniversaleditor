@@ -1,4 +1,4 @@
-export default async function decorate(block) {
+/*export default async function decorate(block) {
   const cfPath = block.dataset.cfPath || block.getAttribute('data-cf-path');
   if (!cfPath) {
     block.textContent = 'No Content Fragment path provided.';
@@ -36,4 +36,4 @@ export default async function decorate(block) {
   block.textContent = `Title: ${data.title || ''}
 Summary: ${data.summary || ''}
 Body: ${data.body || ''}`;
-}
+}*/
