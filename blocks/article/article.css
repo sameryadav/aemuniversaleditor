@@ -2,11 +2,13 @@
   font-size: 2em;
   margin-bottom: 0.5em;
 }
+
 .cf-summary {
   font-style: italic;
   color: #666;
   margin-bottom: 1em;
 }
+
 .cf-body {
   line-height: 1.6;
 }
