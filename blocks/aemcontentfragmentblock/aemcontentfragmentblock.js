@@ -27,8 +27,9 @@ const aemcontentfragmentblock = () => {
       .catch((error) => console.error('Error fetching content fragment data:', error));
   }, []);
 
-  if (!data) 
+  if (!data) {
     return <div>Loading...</div>;
+  }
 
   return (
     <div>
