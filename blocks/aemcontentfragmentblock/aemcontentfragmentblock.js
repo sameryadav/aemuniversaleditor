@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 
 const aemcontentfragmentblock = () => {
   const [data, setData] = useState(null);
-
   useEffect(() => {
     // Replace with your actual publish endpoint and query
     const endpoint = 'https://publish-p8661-e624335.adobeaemcloud.com/content/_cq_graphql/aemuniversaleditor/endpoint.json';
