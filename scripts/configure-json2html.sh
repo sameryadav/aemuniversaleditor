@@ -16,7 +16,7 @@ echo "=========================================================="
 if [ -z "$ADMIN_API_TOKEN" ]; then
     echo -e "${RED}Error: ADMIN_API_TOKEN environment variable is not set${NC}"
     echo "Please set your admin API token:"
-    echo "export ADMIN_API_TOKEN='your-admin-api-token-here'"
+    echo "export ADMIN_API_TOKEN='$$ADMIN_API_TOKEN'"
     exit 1
 fi
 

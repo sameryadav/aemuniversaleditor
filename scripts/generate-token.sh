@@ -18,7 +18,7 @@ echo ""
 if [ -z "$CLIENT_ID" ]; then
     echo -e "${RED}Error: CLIENT_ID environment variable is not set${NC}"
     echo "Please set your Adobe Developer Console Client ID:"
-    echo "export CLIENT_ID='4cb241a8a4264392ad298d8b400a1076'"
+    echo "export CLIENT_ID='$CLIENT_ID'"
     echo ""
     echo "Get this from: https://developer.adobe.com/console"
     exit 1
@@ -27,7 +27,7 @@ fi
 if [ -z "$CLIENT_SECRET" ]; then
     echo -e "${RED}Error: CLIENT_SECRET environment variable is not set${NC}"
     echo "Please set your Adobe Developer Console Client Secret:"
-    echo "export CLIENT_SECRET='your-client-secret-here'"
+    echo "export CLIENT_SECRET='$CLIENT_SECRET'"
     echo ""
     echo "Get this from: https://developer.adobe.com/console"
     exit 1
