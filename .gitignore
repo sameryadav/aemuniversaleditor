@@ -7,3 +7,10 @@ helix-importer-ui
 .DS_Store
 *.bak
 .idea
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development
+.env.test
+.env.production

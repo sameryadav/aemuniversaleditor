@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{properties.title}}</title>
+    <meta name="description" content="{{properties.summary}}">
+</head>
+<body>
+    <main>
+        <!-- Hero Section -->
+        <div>
+            {{#properties.image}}
+            <div>
+                <picture>
+                    <img src="{{src}}" alt="{{alt}}" width="{{width}}" height="{{height}}">
+                </picture>
+            </div>
+            {{/properties.image}}
+            
+            <!-- Title -->
+            {{#properties.title}}
+            <div>
+                <h1>{{.}}</h1>
+            </div>
+            {{/properties.title}}
+            
+            <!-- Author and Date -->
+            <div>
+                {{#properties.author}}
+                <p><strong>By:</strong> {{.}}</p>
+                {{/properties.author}}
+                {{#properties.publishDate}}
+                <p><strong>Published:</strong> {{.}}</p>
+                {{/properties.publishDate}}
+            </div>
+            
+            <!-- Summary -->
+            {{#properties.summary}}
+            <div>
+                <p class="summary">{{.}}</p>
+            </div>
+            {{/properties.summary}}
+        </div>
+        
+        <!-- Main Content -->
+        {{#properties.content}}
+        <div>
+            <div class="content">
+                {{{.}}}
+            </div>
+        </div>
+        {{/properties.content}}
+        
+        <!-- Article Text (if different from content) -->
+        {{#properties.text}}
+        <div>
+            <div class="article-text">
+                {{{.}}}
+            </div>
+        </div>
+        {{/properties.text}}
+        
+        <!-- Tags -->
+        {{#properties.tags}}
+        <div>
+            <p><strong>Tags:</strong></p>
+            <ul>
+                {{#.}}
+                <li>{{.}}</li>
+                {{/.}}
+            </ul>
+        </div>
+        {{/properties.tags}}
+        
+        <!-- Category -->
+        {{#properties.category}}
+        <div>
+            <p><strong>Category:</strong> {{.}}</p>
+        </div>
+        {{/properties.category}}
+        
+        <!-- Related Links -->
+        {{#properties.relatedLinks}}
+        <div>
+            <h3>Related Links</h3>
+            <ul>
+                {{#.}}
+                <li><a href="{{url}}">{{title}}</a></li>
+                {{/.}}
+            </ul>
+        </div>
+        {{/properties.relatedLinks}}
+        
+        <!-- Gallery (if multiple images) -->
+        {{#properties.gallery}}
+        <div>
+            <h3>Gallery</h3>
+            {{#.}}
+            <div>
+                <picture>
+                    <img src="{{src}}" alt="{{alt}}" width="{{width}}" height="{{height}}">
+                </picture>
+            </div>
+            {{/.}}
+        </div>
+        {{/properties.gallery}}
+        
+        <!-- Press Contact Information -->
+        {{#properties.contactName}}
+        <div>
+            <h3>Press Contact</h3>
+            <p><strong>Name:</strong> {{properties.contactName}}</p>
+            {{#properties.contactEmail}}
+            <p><strong>Email:</strong> <a href="mailto:{{.}}">{{.}}</a></p>
+            {{/properties.contactEmail}}
+            {{#properties.contactPhone}}
+            <p><strong>Phone:</strong> {{.}}</p>
+            {{/properties.contactPhone}}
+        </div>
+        {{/properties.contactName}}
+        
+        <!-- Additional Metadata -->
+        {{#properties.location}}
+        <div>
+            <p><strong>Location:</strong> {{.}}</p>
+        </div>
+        {{/properties.location}}
+        
+        {{#properties.source}}
+        <div>
+            <p><strong>Source:</strong> {{.}}</p>
+        </div>
+        {{/properties.source}}
+    </main>
+</body>
+</html>
