@@ -39,7 +39,7 @@ echo ""
 echo "Sending configuration to json2html service..."
 
 curl --request POST \
-  --url https://json2html.adobeaem.workers.dev/config/sameryadav/aemuniversaleditor/main \
+  --url https://json2html.adobeaem.workers.dev/sameryadav/aemuniversaleditor/main \
   --header "Authorization: token $ADMIN_API_TOKEN" \
   --header 'Content-Type: application/json' \
   --data "[

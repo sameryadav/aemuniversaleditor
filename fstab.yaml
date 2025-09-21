@@ -1,8 +1,11 @@
-mountpoints:
-  /:
-    url: "https://author-p8661-e624335.adobeaemcloud.com/bin/franklin.delivery/sameryadav/aemuniversaleditor/main"
-    type: "markup"
-    suffix: ".html"
-    overlay:
-      url: "https://json2html.adobeaem.workers.dev/sameryadav/aemuniversaleditor/main"
-      type: "markup"
+"content": {
+    "source": {
+      "url": "https://author-p8661-e624335.adobeaemcloud.com/bin/franklin.delivery/sameryadav/aemuniversaleditor/main",
+      "type": "markup",
+      "suffix": ".html"
+    },
+    "overlay": {
+      "url": "https://json2html.adobeaem.workers.dev/sameryadav/aemuniversaleditor/main",
+      "type": "markup"
+    },
+  }
