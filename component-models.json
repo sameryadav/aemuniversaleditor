@@ -240,7 +240,7 @@
       {
         "component": "richtext",
         "name": "aemcontentfragmentblock",
-        "label": "AEM Content Fragment Block"
+        "label": "AEM Content Fragment Block Test1"
       },
       {
         "component": "text",
