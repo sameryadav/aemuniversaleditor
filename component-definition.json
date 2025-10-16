@@ -167,8 +167,8 @@
                 "template": {
                   "name": "Quote",
                   "model": "quote",
-                  "quote": "<p>This is Custom Block!</p>",
-                  "author": "Samar Yadav"
+                  "quote": "<p>This is Custom Block!123</p>",
+                  "author": "Samar Yadav1"
                 }
               }
             }
