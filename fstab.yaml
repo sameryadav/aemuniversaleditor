@@ -6,6 +6,7 @@
     },
     "overlay": {
       "url": "https://json2html.adobeaem.workers.dev/sameryadav/aemuniversaleditor/main",
-      "type": "markup"
+      "type": "markup",
+      "suffix": ".html"
     },
   }
