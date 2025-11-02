@@ -83,6 +83,36 @@
       "id": "blocks",
       "components": [
         {
+          "title": "AEM Content Fragment Block Test1",
+          "id": "aemcontentfragmentblock",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "AEM Content Fragment Block Test1",
+                  "model": "aemcontentfragmentblock"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Article Block",
+          "id": "article",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Article",
+                  "model": "article"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Cards",
           "id": "cards",
           "plugins": {
@@ -152,39 +182,6 @@
                 "template": {
                   "name": "Hero",
                   "model": "hero"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Quote",
-          "id": "quote",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Quote",
-                  "model": "quote",
-                  "quote": "<p>This is Custom Block!123</p>",
-                  "author": "Samar Yadav1"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "AEM Content Fragment Block Test1",
-          "id": "aemcontentfragmentblock",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "AEM Content Fragment Block Test1",
-                  "model": "aemcontentfragmentblock",
-                  "aemcontentfragmentblock": "aemcontentfragmentblock by Samar Yadav1"
                 }
               }
             }

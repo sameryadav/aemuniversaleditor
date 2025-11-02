@@ -142,6 +142,22 @@
     ]
   },
   {
+    "id": "aemcontentfragmentblock",
+    "fields": []
+  },
+  {
+    "id": "article",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "cfPath",
+        "label": "Content Fragment Path",
+        "value": ""
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
@@ -212,49 +228,6 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "quote",
-    "fields": [
-       {
-         "component": "richtext",
-         "name": "quote",
-         "value": "",
-         "label": "Quote",
-         "valueType": "string"
-       },
-       {
-         "component": "text",
-         "valueType": "string",
-         "name": "author",
-         "label": "Author",
-         "value": ""
-       }
-     ]
-  },
-  {
-    "id": "aemcontentfragmentblock",
-    "fields": [
-      {
-        "component": "richtext",
-        "name": "aemcontentfragmentblock",
-        "label": "AEM Content Fragment Block Test1"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "authorName",
-        "label": "Author",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "book",
-        "label": "Book",
-        "value": ""
       }
     ]
   }
