@@ -1,6 +1,6 @@
 # Your Project's Title...
 Your project's description...
-
+This project was for AEM Universal Editor  but somehow not getting updated so created another git@github.com:sameryadav/aemuniversaleditorlab.git
 ## Environments
 - Preview: https://main--{repo}--{owner}.aem.page/
 - Live: https://main--{repo}--{owner}.aem.live/
